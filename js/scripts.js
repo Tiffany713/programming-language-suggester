@@ -12,11 +12,13 @@ $(document).ready(function() {
 		var house = $("#house").val();
 		console.log(house);
 
-		if (animal === "lassie" && weapon  === "lightsaber" && friends === "rachael" && cocktail === "margarita" && house === "huffle") {
-			$("#java").show();
-		} else if (animal === "babyYoda" || animal === "lassie" && weapon  === "wizardWand" && friends === "joey" && cocktail === "longIsland" && house === "raven") {
+		if ((animal === "lassie" || animal === "babyYoda") && (weapon  === "lightsaber" || weapon === "yourFists") && (friends === "rachael" || friends === "joey") && cocktail === "margarita" && house === "huffle" || house === "slyth") {
 			$("#csharp").show();
-		} else if (animal === "nagini" || animal === "godzilla" && weapon  === "wizardWand" || weapon === "pokemon" && friends === "joey" && cocktail === "pinaColada" && house === "slyth") {
+		} else if ((animal === "babyYoda" || animal === "lassie") && (weapon  === "wizardWand" || weapon === "pokemon") && (friends === "joey" || friends === "chandler") && (cocktail === "longIsland" || cocktail === "cosmo") && (house === "raven" || house === "gryffin")) {
+			$("#java").show();
+		} else if ((animal === "nagini" || animal === "godzilla") && (weapon  === "wizardWand" || weapon === "pokemon") && (friends === "monica" || friends === "rachael") && (cocktail === "pinaColada" || cocktail === "cosmo") && (house === "slyth" || house === "gryffin")) {
+			$("#python").show();
+		} else {
 			$("#python").show();
 		}
 			
