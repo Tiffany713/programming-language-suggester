@@ -11,6 +11,9 @@ $(document).ready(function() {
 		console.log(cocktail);
 		var house = $("#house").val();
 		console.log(house);
+		
+		
+
 
 		if ((animal === "lassie" || animal === "babyYoda") && (weapon  === "lightsaber" || weapon === "yourFists") && (friends === "rachael" || friends === "joey") && cocktail === "margarita" && house === "huffle" || house === "slyth") {
 			$("#csharp").show();
@@ -29,7 +32,15 @@ $(document).ready(function() {
 			$("#java").hide();
 			$("#csharp").hide();
 		}
-			
+		
+	// });
+	// $("form#result").submit(function() {
+	// var userInput = $("input#name").val();
+	// 	$("#name").text(userInput); 
+	// 	console.log(input#name);  
+
+	// 	$(.userName).show();
+
 		event.preventDefault();
 	});
 });
