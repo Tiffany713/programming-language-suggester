@@ -30,8 +30,6 @@ $(document).ready(function() {
 			$("#csharp").hide();
 		}
 			
-	
-
 		event.preventDefault();
 	});
 });
