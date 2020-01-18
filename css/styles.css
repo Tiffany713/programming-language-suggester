@@ -22,6 +22,8 @@ h1 {
   text-align: center;
   font-family: monospace;
   font-size: 50px;
+  text-shadow: 1px 1px 2px rgb(182, 192, 199), 0 0 25px blue, 0 0 5px darkblue;
+  /* text-shadow: 2px 2px rgb(151, 143, 232); */
 }
 
 h3 {
@@ -42,5 +44,7 @@ strong {
 }
 img {
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
+  box-shadow: 10px 10px 5px grey;);
 }
+
