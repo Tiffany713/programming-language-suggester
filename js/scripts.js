@@ -13,19 +13,19 @@ $(document).ready(function() {
 		console.log(house);
 
 		if ((animal === "lassie" || animal === "babyYoda") && (weapon  === "lightsaber" || weapon === "yourFists") && (friends === "rachael" || friends === "joey") && cocktail === "margarita" && house === "huffle" || house === "slyth") {
-			$("#csharp").show();
+			$("#csharp").fadeToggle();
 			$("#java").hide();
 			$("#python").hide();
 		} else if ((animal === "babyYoda" || animal === "lassie") && (weapon  === "wizardWand" || weapon === "pokemon") && (friends === "joey" || friends === "chandler") && (cocktail === "longIsland" || cocktail === "cosmo") && (house === "raven" || house === "gryffin")) {
-			$("#java").show();
+			$("#java").fadeToggle();
 			$("#csharp").hide();
 			$("#python").hide();
 		} else if ((animal === "nagini" || animal === "godzilla") && (weapon  === "wizardWand" || weapon === "pokemon") && (friends === "monica" || friends === "rachael") && (cocktail === "pinaColada" || cocktail === "cosmo") && (house === "slyth" || house === "gryffin")) {
-			$("#python").show();
+			$("#python").fadeToggle();
 			$("#java").hide();
 			$("#csharp").hide();
 		} else {
-			$("#python").show();
+			$("#python").fadeToggle();
 			$("#java").hide();
 			$("#csharp").hide();
 		}
