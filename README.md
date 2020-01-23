@@ -8,7 +8,7 @@
 This interactive webpage allows users to choose their answers to various questions with the given choices provided. Based on their selection, the application will show a result that tells them what programming language best suits them.
 
 ## Link
-https://github.com/Tiffany713/programming-language-suggester.git
+https://tiffany713.github.io/programming-language-suggester/
 
 ## Setup/Installation Requirements
 * _Click the green button labeld "Clone or download" located in the "Clone with HTTPs" section.
